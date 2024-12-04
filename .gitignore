@@ -1,0 +1,20 @@
+# HDF5 files
+
+*.h5
+*.hdf
+*.hdf5
+
+# output files
+*.err
+*.out
+*.png
+*.log
+
+# frame files
+*.gwf
+
+# all injection run files
+#*injections/*
+
+# directory file
+.DS_Store
