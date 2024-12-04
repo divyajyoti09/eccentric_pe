@@ -1,0 +1,56 @@
+Injection parameters and details for inj1
+
+hybrid approximant: BBH_1369
+
+hybrid approximant properties from metadata:
+q = 2.0
+x0 = 0.045
+e0 = 0.373
+l0 = -0.203
+N_orbs = 28.3
+All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+e0 at 20Hz (start of PE) = 0.322
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:BBH_1369'
+
+	H1.gwf ===> 'H1:BBH_1369'
+
+	V1.gwf ===> 'V1:BBH_1369'
+
+
+Note: This is a zero noise injection.
+
+Waveform properties:
+Note: the waveform is tapered between the window of -2.276s to -1.676s
+
+Modes included: [[2, 2], [2, -2]]
+q = 2.0
+M = 35
+m1 = 23.333333333333332
+m2 = 11.666666666666666
+m_chirp = 14.195167977508135
+eta = 0.2222222222222222
+DL = 410
+inclination = 30.0
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.02880859375 seconds after peak.
+Full hybrid waveform length = 2.321044921875 seconds
+
+Rough signal duration for this system, after 20 Hz = 2.924 seconds.
+This is roughly the duration which will be analyzed during PE.
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 7.979073288800658
+	SNR_H1 = 13.600276140062576
+	SNR_V1 = 34.04303989783008

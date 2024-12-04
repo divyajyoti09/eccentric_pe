@@ -1,0 +1,68 @@
+Injection parameters and details for inj1
+
+Simulation Alias: EccContPrecDiff001
+
+Simulation properties from metadata:
+ReqRefTime = 488
+Omega0 = 0.0103729
+Omega_ref = 0.01035
+D0 = 20.2307
+MassRatio = 3.0
+ChiA = (0.3,0.0,0.0)
+ChiA_ref = (0.298,0.03459,0.00013)
+ChiB = (0.2,0.0,0.1)
+ChiB_ref = (0.298,0.03459,0.00013)
+ChiEff = 0.025
+ChiPrec = 0.3
+
+t_ref (in seconds) = 0.08653102496816177
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+chi_eff_ref = 0.00013
+chi_p_ref = 0.30000078016565224
+spin1_a = 0.3000008083322443
+spin1_azimuthal = 0.11555670674140084
+spin1_polar = 1.5703629946155895
+spin2_a = 0.3000008083322443
+spin2_azimuthal = 0.11555670674140084
+spin2_polar = 1.5703629946155895
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:EccContPrecDiff001'
+
+	H1.gwf ===> 'H1:EccContPrecDiff001'
+
+	V1.gwf ===> 'V1:EccContPrecDiff001'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -4.502s to -2.799s
+
+Modes included: [[2, 2], [2, -2]]
+q = 3.0
+M = 36.0
+m1 = 27.0
+m2 = 9.0
+m_chirp = 13.185702232125848
+eta = 0.1875
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.03173828125 seconds after peak.
+Full simulation length = 4.550537109375 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 7.348647196370308
+	SNR_H1 = 12.535089778794505
+	SNR_V1 = 29.283106327284724
