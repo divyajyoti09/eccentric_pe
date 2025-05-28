@@ -1,0 +1,75 @@
+Injection parameters and details for inj1
+
+Simulation Alias: eccprecrun4b
+
+Simulation properties from metadata:
+	Status = {2:'Error',3:'Completed',4:'Halted',5:'Halted'}
+	ReqRefTime = 330.0
+	Omega0 = 0.0190602
+	Omega_ref = 0.00429
+	Ncycles = {3:88.20583841222718}
+	D0 = 14.4
+	MassRatio = 2
+	Eccentricity = nan
+	ChiA = (0.1,0.1,0.2)
+	ChiA_ref = (0.08876,0.10947,0.20035)
+	ChiB = (0.3,0.0,0.3)
+	ChiB_ref = (0.29346,0.05178,0.30195)
+	ChiEff = 0.233333
+	ChiPrec = 0.141421
+	SemiMajorAxis = nan
+	AnomalyAngle = nan
+
+t_ref (in seconds) = 0.048762361152881406
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.0264020831689505
+f_low = 20
+chi_eff_ref = 0.23421666666666666
+chi_p_ref = 0.14093267364241693
+spin1_a = 0.24495334453728124
+spin1_azimuthal = 0.8894951222974617
+spin1_polar = 0.6130258500939013
+spin2_a = 0.4242331228228178
+spin2_azimuthal = 0.1746488715845246
+spin2_polar = 0.7788029476024039
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:eccprecrun4b'
+
+	H1.gwf ===> 'H1:eccprecrun4b'
+
+	V1.gwf ===> 'V1:eccprecrun4b'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -3.548s to -1.910s
+
+Modes included: [[2, 2], [2, -2]]
+q = 2.0
+M = 30
+m1 = 20.0
+m2 = 10.0
+m_chirp = 12.167286837864115
+eta = 0.2222222222222222
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.023681640625 seconds after peak.
+Full simulation length = 3.588623046875 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 7.857960796453035
+	SNR_H1 = 13.394782383486069
+	SNR_V1 = 32.62174029090133

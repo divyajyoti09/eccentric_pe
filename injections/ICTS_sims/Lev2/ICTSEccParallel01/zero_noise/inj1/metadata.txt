@@ -1,0 +1,81 @@
+Injection parameters and details for inj1
+
+Simulation Alias: ICTSEccParallel01
+
+Simulation properties from metadata:
+	Status = {2:'Completed',3:'Completed'}
+	Omega0 = 0.0152181
+	Ncycles = {2:48.39433257277633,3:48.37193576690978}
+	adot0 = 0.000193835
+	D0 = 15.4136
+	MassRatio = 3.0
+	ChiA = (0.3,0.0,0.0)
+	ChiB = (0.3,0.0,0.0)
+	IDType = SHK
+	ReferenceTime = 0
+	SemiMajorAxis = 16
+	Eccentricity = 0.04
+	AnomalyAngle = 0.4
+	ZwickyDays = 0
+	ChiEff = 0.0
+	ChiPrec = 0.3
+	ReqRefTime = 308
+	Omega_ref = 0.01572
+	ChiA_ref = (0.29679,0.04377,0.00035)
+	ChiB_ref = (0.28026,0.10699,0.0009)
+	MA_ref = 0.75839
+	MB_ref = 0.252798
+
+t_ref (in seconds) = 0.08192076673684076
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.06275307731346234
+f_low = 20
+chi_eff_ref = 0.00048750000000000003
+chi_p_ref = 0.30000019499993663
+spin1_a = 0.3000003991664011
+spin1_azimuthal = 0.14642255050929207
+spin1_polar = 1.569629661415882
+spin2_a = 0.29998889596116723
+spin2_azimuthal = 0.3646776264012124
+spin2_polar = 1.5677962112498802
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:ICTSEccParallel01'
+
+	H1.gwf ===> 'H1:ICTSEccParallel01'
+
+	V1.gwf ===> 'V1:ICTSEccParallel01'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -2.185s to -1.241s
+
+Modes included: [[2, 2], [2, -2]]
+q = 3.0
+M = 54.0
+m1 = 40.5
+m2 = 13.5
+m_chirp = 19.778553348188773
+eta = 0.1875
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.041259765625 seconds after peak.
+Full simulation length = 2.242919921875 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 9.944248448990168
+	SNR_H1 = 16.962734730222735
+	SNR_V1 = 40.260440287002446

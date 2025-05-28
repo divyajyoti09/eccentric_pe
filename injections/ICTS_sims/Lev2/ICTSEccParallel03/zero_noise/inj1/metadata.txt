@@ -1,0 +1,81 @@
+Injection parameters and details for inj1
+
+Simulation Alias: ICTSEccParallel03
+
+Simulation properties from metadata:
+	Status = {2:'Completed',3:'Completed'}
+	Omega0 = 0.0283864
+	Ncycles = {2:15.418839986900768,3:15.402097333178874}
+	adot0 = 0.0
+	D0 = 9.9
+	MassRatio = 3.5
+	ChiA = (0.2,0.1,0.0)
+	ChiB = (0.2,0.1,0.0)
+	IDType = SHK
+	ReferenceTime = 0
+	SemiMajorAxis = 11
+	Eccentricity = 0.1
+	AnomalyAngle = 0.0
+	ZwickyDays = 0
+	ChiEff = 0.0
+	ChiPrec = 0.223607
+	ReqRefTime = 200
+	Omega_ref = 0.02954
+	ChiA_ref = (0.16693,0.14876,0.00183)
+	ChiB_ref = (0.07503,0.21057,0.00493)
+	MA_ref = 0.782626
+	MB_ref = 0.223605
+
+t_ref (in seconds) = 0.09949491871598024
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.09555945422067719
+f_low = 20
+chi_eff_ref = 0.002518888888888889
+chi_p_ref = 0.22359598050948948
+spin1_a = 0.22360346911441242
+spin1_azimuthal = 0.7279051304058592
+spin1_polar = 1.562612104802448
+spin2_a = 0.22359233148746405
+spin2_azimuthal = 1.228503624564359
+spin2_polar = 1.5487454831151295
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:ICTSEccParallel03'
+
+	H1.gwf ===> 'H1:ICTSEccParallel03'
+
+	V1.gwf ===> 'V1:ICTSEccParallel03'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -0.781s to -0.248s
+
+Modes included: [[2, 2], [2, -2]]
+q = 3.5
+M = 101.0
+m1 = 78.55555555555556
+m2 = 22.444444444444443
+m_chirp = 35.22955714244104
+eta = 0.1728395061728395
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.072021484375 seconds after peak.
+Full simulation length = 0.869873046875 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 13.43261309809407
+	SNR_H1 = 22.92996706450356
+	SNR_V1 = 52.46453679397709
