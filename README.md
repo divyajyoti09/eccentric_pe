@@ -25,7 +25,7 @@ graph TD;
   Hi[inj1]-->Hr3["run03 <br/> (PS)"];
   Hi[inj1]-->Hr4["run04 <br/> (eNS)"];
 
-  ICTS_sims-->Lev#-->Sim_ID-->Iz[zero_noise]-->Ii[inj1]-->Ir1["run01 <br/> (PS)"]
+  ICTS_sims-->transformed-->Lev#-->Sim_ID-->Iz[zero_noise]-->Ii[inj1]-->Ir1["run01 <br/> (PS)"]
   Ii[inj1]-->Ir2["run02 <br/> (eAS)"]
   Ii[inj1]-->Ir3["run03 <br/> (iPS)"]
 
