@@ -2,6 +2,7 @@
 
 ## Injections:
 - Run_dir on Sonic: `/mnt/pfs/divyajyoti/eccentric_population/eccentric_pe/injections`
+- Run_dir for ICTS Sims on Sonic: `/mnt/pfs/divyajyoti/eccentric_population/eccentric_pe/injections/ICTS_sims/transformed`
 
 ## Directory structure:
 - Key: 
@@ -26,6 +27,7 @@ graph TD;
 
   ICTS_sims-->Lev#-->Sim_ID-->Iz[zero_noise]-->Ii[inj1]-->Ir1["run01 <br/> (PS)"]
   Ii[inj1]-->Ir2["run02 <br/> (eAS)"]
+  Ii[inj1]-->Ir2["run03 <br/> (iPS)"]
 
   TEOBResumS-DALI-->q_#-->spin1z_0.3_spin2z_0.3-->Tz[zero_noise]-->Ti[inj#]
   Ti[inj#]-->Tr1["run01 <br/> (AS)"]
