@@ -1,0 +1,67 @@
+Injection parameters and details for inj4 using TEOBResumS-DALI
+
+Approximant: teobresums
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:teobresums'
+
+	H1.gwf ===> 'H1:teobresums'
+
+	V1.gwf ===> 'V1:teobresums'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+q = 1.25
+M = 35
+m1 = 19.444444444444443
+m2 = 15.555555555555555
+m_chirp = 15.121505453394189
+eta = 0.24691358024691357
+
+chi_1z = 0.3
+chi_2z = 0.3
+chi_1x = 0.0
+chi_2x = 0.0
+chi_1y = 0.0
+chi_2y = 0.0
+
+chi_eff = 0.3
+chi_p = 0.0
+e0 at 20Hz (start of PE) = 0.15
+
+
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:teobresums'
+
+	H1.gwf ===> 'H1:teobresums'
+
+	V1.gwf ===> 'V1:teobresums'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -2.190s to -1.871s
+
+Modes included: [[2, 2], [2, -2]]
+sampling rate = 4096
+
+Signal duration: 2.233642578125
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 9.496031670908156
+	SNR_H1 = 16.351551823929814
+	SNR_V1 = 38.94437947714558
+	Network SNR = 43.29217663048915

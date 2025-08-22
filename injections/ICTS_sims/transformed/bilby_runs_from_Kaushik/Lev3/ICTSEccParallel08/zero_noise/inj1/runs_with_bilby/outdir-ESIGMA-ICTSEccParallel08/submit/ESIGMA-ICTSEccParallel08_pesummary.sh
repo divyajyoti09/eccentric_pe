@@ -1,0 +1,3 @@
+#!/bin/bash
+/mnt/pfs/kaushik.paul/miniconda3/envs/igwn-py39/bin/summarypages --webdir /home/kaushik.paul/public_html/ESIGMA_recovery/ICTS_SIMS/ICTSEccParallel08/run01 --config outdir-ESIGMA-ICTSEccParallel08/ESIGMA-ICTSEccParallel08_config_complete.ini --samples outdir-ESIGMA-ICTSEccParallel08/result/ESIGMA-ICTSEccParallel08_data0_1137283217-0_analysis_H1L1V1_result.hdf5 -a IMRESIGMAHM --gwdata outdir-ESIGMA-ICTSEccParallel08/data/ESIGMA-ICTSEccParallel08_data0_1137283217-0_generation_data_dump.pickle --labels ESIGMA-ICTSEccParallel08_data0_1137283217-0_analysis_H1L1V1 --gw --no_ligo_skymap --include_prior
+

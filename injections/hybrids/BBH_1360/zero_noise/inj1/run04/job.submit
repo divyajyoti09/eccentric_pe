@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --mail-user=divyajyoti@physics.iitm.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --job-name=BBH_1360
+#SBATCH --output=run_%N_%j.out
+#SBATCH --error=run_%N_%j.err
+#
+#SBATCH --partition=long
+####SBATCH --time=9999:00:00
+#SBATCH --ntasks=96
+#SBATCH --nodes=1
+# Memory per process
+#SBATCH --mem-per-cpu=2G
+# The below statement is required if the code is floating-point intensive and CPU-bound [optional]
+
+date
+source /mnt/pfs/divyajyoti/anaconda3/etc/profile.d/conda.sh
+conda activate pycbc_new
+#export ENIGMA_WRITE_FAILURES_TO_DISK=1
+bash run.sh
+
+date
+bash post_proc.sh
+
+date
+bash plotting_posteriors.sh
+
+date

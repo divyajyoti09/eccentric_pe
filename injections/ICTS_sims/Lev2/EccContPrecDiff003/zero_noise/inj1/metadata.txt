@@ -1,0 +1,75 @@
+Injection parameters and details for inj1
+
+Simulation Alias: EccContPrecDiff003
+
+Simulation properties from metadata:
+	Status = {2:'Completed',3:'Completed'}
+	ReqRefTime = 200
+	Omega0 = 0.0283864
+	Omega_ref = 0.02997
+	Ncycles = {2:14.622647544224002,3:14.649825754403615}
+	D0 = 9.9
+	MassRatio = 3.5
+	Eccentricity = 0.1
+	ChiA = (-0.2,0.1,0.0)
+	ChiA_ref = (-0.21854,0.0473,0.00118)
+	ChiB = (0.2,0.0,-0.3)
+	ChiB_ref = (0.12828,0.13623,-0.30813)
+	ChiEff = -0.0666667
+	ChiPrec = 0.223607
+	SemiMajorAxis = 11
+	AnomalyAngle = 0.0
+
+t_ref (in seconds) = 0.10048001692108896
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.09648456176915882
+f_low = 20
+chi_eff_ref = -0.06755555555555556
+chi_p_ref = 0.22360013774593254
+spin1_a = 0.22360325131804326
+spin1_azimuthal = 2.928444010997351
+spin1_polar = 1.5655190981765286
+spin2_a = 0.36049752870165425
+spin2_azimuthal = 0.815444692648175
+spin2_polar = 2.5958371916890832
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:EccContPrecDiff003'
+
+	H1.gwf ===> 'H1:EccContPrecDiff003'
+
+	V1.gwf ===> 'V1:EccContPrecDiff003'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -0.749s to -0.222s
+
+Modes included: [[2, 2], [2, -2]]
+q = 3.5
+M = 102.0
+m1 = 79.33333333333333
+m2 = 22.666666666666668
+m_chirp = 35.57836463890085
+eta = 0.1728395061728395
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.07666015625 seconds after peak.
+Full simulation length = 0.841796875 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 12.862186391918732
+	SNR_H1 = 21.962821481612764
+	SNR_V1 = 49.60687416688557
