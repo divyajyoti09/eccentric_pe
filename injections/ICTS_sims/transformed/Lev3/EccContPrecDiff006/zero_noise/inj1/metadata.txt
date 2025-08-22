@@ -1,0 +1,84 @@
+Injection parameters and details for inj1
+
+Simulation Alias: EccContPrecDiff006
+
+Simulation properties from metadata:
+	massA = 0.6
+	massB = 0.4
+	massC = 0.9477969517532804
+	ChiA = (0.20087435955112629, 0.3708332500236527, 0.20521124097189988)
+	ChiA_ref = (-0.35031149518711635, 0.24044957288166713, 0.1986084598152808)
+	ChiB = (0.0909388696913761, 0.039072138062222, 0.20045902800798937)
+	ChiB_ref = (-0.03666574198968391, 0.08623833935308463, 0.20297513171168147)
+	ChiC_final = (0.09564708668933763, 0.06634467991254368, 0.7327024445901856)
+	ChiC_final_ref = (-0.09037323185603427, 0.07044295895113777, 0.7329893058915617)
+	v_kick = (-0.023875365635206494, -0.0031738277616044554, 0.012219146488087272)
+	v_kick_ref = (-0.0007167804334940516, -0.024615769403347504, 0.011088910237883911)
+	phi_ref = -1.432106264582384
+	Omega_ref = 0.0339153616649775
+	Lhat = (0.052075414994757596, -0.04470872022287792, 0.9976418603332341)
+	nhat = (0.13524867863748719, -0.9894772760877559, -0.05140539886790417)
+	Omegahat = (0.053268999764595606, -0.048334208983660976, 0.9974097542665216)
+	Status = Completed
+	ReqRefTime = 200
+	Omega0 = 0.0278232
+	Ncycles = 13.655975456060258
+	D0 = 10.0079
+	MassRatio = 1.5
+	Eccentricity = 0.21
+	SemiMajorAxis = 11
+	AnomalyAngle = 1.0
+
+t_ref (in seconds) = 0.11427138998527739
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.10480674657439651
+f_low = 20
+chi_eff_ref = 0.20331
+chi_p_ref = 0.42173883601110296
+spin1_a = 0.46901470115551813
+spin1_azimuthal = 1.0743657549379468
+spin1_polar = 1.1179416324154268
+spin2_a = 0.22356377188623383
+spin2_azimuthal = 0.40578062777085255
+spin2_polar = 0.4586366843385614
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:EccContPrecDiff006'
+
+	H1.gwf ===> 'H1:EccContPrecDiff006'
+
+	V1.gwf ===> 'V1:EccContPrecDiff006'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -0.794s to -0.237s
+
+Modes included: [[2, 2], [2, -2]]
+q = 1.5
+M = 116.0
+m1 = 69.6
+m2 = 46.4
+m_chirp = 49.27024640808496
+eta = 0.24
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.080078125 seconds after peak.
+Full simulation length = 0.890869140625 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 23.955615697905664
+	SNR_H1 = 40.87548061570232
+	SNR_V1 = 98.16175692501614

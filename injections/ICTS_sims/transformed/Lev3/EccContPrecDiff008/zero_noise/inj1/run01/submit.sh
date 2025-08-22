@@ -1,0 +1,1 @@
+sbatch --nodelist=sonic4,sonic7 job.submit

@@ -1,0 +1,90 @@
+Injection parameters and details for inj1
+
+Simulation Alias: ICTSEccParallel14
+
+Simulation properties from metadata:
+	massA = 0.90476
+	massB = 0.09524
+	massC = 0.9935427496542024
+	ChiA = (6.591125232223671e-10, 6.734204786059058e-09, -0.6000080351255351)
+	ChiA_ref = (-1.8210222290206618e-09, 6.516733956535428e-09, -0.6000080351255351)
+	ChiB = (5.555550500664768e-09, 4.299493857800236e-09, -0.29998312250682163)
+	ChiB_ref = (3.62451576508759e-09, 6.0176967576748206e-09, -0.2999831225068217)
+	ChiC_final = (2.660195304057559e-08, 1.3336571932636307e-08, -0.18477182223576835)
+	ChiC_final_ref = (1.997787253487165e-08, 2.2054765141977647e-08, -0.18477182223576835)
+	v_kick = (-0.09608266868390752, -0.8337323558987734, 1.7988495818858313e-07)
+	v_kick_ref = (0.21195216499117003, -0.812045442231835, 1.7988495818858316e-07)
+	phi_ref = -0.3700519406112041
+	Omega_ref = 0.0159505740633808
+	Lhat = (5.86216443641365e-09, -9.981022783494556e-09, 1.0)
+	nhat = (0.9323085618218567, -0.3616638571293253, -9.623964811321172e-09)
+	Omegahat = (-1.2099040764887836e-06, 1.1481144441569752e-07, 0.9999999999992616)
+	Status = Completed
+	Omega0 = 0.0125772
+	Ncycles = 62.42457597447514
+	adot0 = -0.000721039
+	D0 = 17.1103
+	MassRatio = 9.5
+	IDType = SHK
+	ReferenceTime = 0
+	SemiMajorAxis = 16
+	Eccentricity = 0.1
+	AnomalyAngle = 4.0
+	ZwickyDays = 0
+	ReqRefTime = 338
+	MA_ref = 0.944598
+	MB_ref = 0.0963046
+
+t_ref (in seconds) = 0.09156487671665114
+Note: t_ref is the time before which the data is not reliable. Hence, any data before t_ref has been removed. All values mentioned above are in 1 solar mass units.
+
+Derived quantities from the values in metadata:
+x_ref = 0.0633636896642496
+f_low = 20
+chi_eff_ref = -0.5714357142857143
+chi_p_ref = 0.0
+spin1_a = 0.60001
+spin1_azimuthal = 0.0
+spin1_polar = 3.141592653589793
+spin2_a = 0.29998
+spin2_azimuthal = 0.0
+spin2_polar = 3.141592653589793
+
+IFOs = ['L1', 'H1', 'V1']
+Channel names in gwf files:
+	L1.gwf ===> 'L1:ICTSEccParallel14'
+
+	H1.gwf ===> 'H1:ICTSEccParallel14'
+
+	V1.gwf ===> 'V1:ICTSEccParallel14'
+
+
+Note: This is a zero noise injection
+
+Waveform properties:
+Note: the waveform is tapered between the window of -2.978s to -1.763s
+
+Modes included: [[2, 2], [2, -2]]
+q = 9.5
+M = 55.0
+m1 = 49.76190476190476
+m2 = 5.238095238095238
+m_chirp = 12.634838462052707
+eta = 0.08616780045351474
+DL = 410
+inclination = 0.5235987755982988
+ra = 2.859172059742235
+dec = 1.0471975511965979
+pol = 1.0471975511965976
+
+t_gps = 1137283217.0
+
+sampling rate = 4096
+
+Waveform ends 0.043212890625 seconds after peak.
+Full simulation length = 3.037353515625 seconds
+
+Preliminary SNR calculation of optimal SNR:
+	SNR_L1 = 4.757245911667749
+	SNR_H1 = 8.126374493077355
+	SNR_V1 = 17.33352698560592
